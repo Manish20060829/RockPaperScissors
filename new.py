@@ -39,18 +39,18 @@ while True:
                 break
             elif choice == "yes":
                 asking_for_input = False
-    if choice == "yes":
-        print(f'Computer score: {computerscore}')
-        print(f'User score: {userscore}')
-    if choice == "no":
-        print(f'Computer score: {computerscore}')
-        print(f'User score: {userscore}')
-        if userscore > computerscore:
-            print("You had a better score. Congrats!")
-            break
-        if userscore < computerscore:
-            print("The computer had a higher score. You lost!")
-            break
-        if userscore == computerscore:
-            print("You and the computer have the same score!")
-            break
+        if choice == "yes":
+            print(f'Computer score: {computerscore}')
+            print(f'User score: {userscore}')
+        if choice == "no":
+            print(f'Computer score: {computerscore}')
+            print(f'User score: {userscore}')
+            if userscore > computerscore:
+                print("You had a better score. Congrats!")
+                break
+            if userscore < computerscore:
+                print("The computer had a higher score. You lost!")
+                break
+            if userscore == computerscore:
+                print("You and the computer have the same score!")
+                break
